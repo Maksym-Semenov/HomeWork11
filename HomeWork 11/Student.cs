@@ -10,10 +10,6 @@ namespace HomeWork_11
     internal class Student : Parent
     {
         public string Name { get { return "Max"; } }
-        public Student()
-        {
-           
-        }
         public event Mark NewMark;
         public void AddMark(int m)
         {
